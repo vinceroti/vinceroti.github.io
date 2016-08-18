@@ -1,0 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("cork-wallet.png");
+  text-align: center;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+header {
+  padding: 0px 50px 5px 50px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0
+}
+
+.font { 
+  font-family: 'Francois One', sans-serif; 
+  font-size: 18px;
+}
+
+.colorado img { 
+  height: 80%; 
+  width:80%;
+  padding: 12px;
+}
+
+#rocky { 
+  height: 35%; 
+  width:35%; 
+  padding: 12px;
+}
+
+#gallary > p {
+  padding-bottom:20px;
+}
+
+#form {
+  border: dashed;
+  width: 30%;
+  vertical-align: middle;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding: 50px 50px 15px 50px;
+}
+
+@media screen and (max-width: 934px){
+  #form {
+    width:90%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  main {
+    font-size: 14px; 
+  }
+  footer {
+    font-size: 14px; 
+  }
+}
